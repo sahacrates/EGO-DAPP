@@ -1,0 +1,67 @@
+.button-container{
+    margin-right: 0;
+}
+
+.button {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .40rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0 2.5px;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.button-1{
+    background: linear-gradient(to right, hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+}
+
+.button-2{
+    background: linear-gradient(to right, hsl(250, 76%, 16%), hsl(260, 90%, 60%), hsl(280, 56%, 42%));
+}
+
+.button-1:hover {
+    background: linear-gradient(to right, hsl(130, 76%, 16%), hsl(195, 90%, 60%), hsl(210, 56%, 42%));
+}
+
+.button-2:hover {
+    background:linear-gradient(to right, hsl(240, 76%, 40%), hsl(250, 90%, 70%), hsl(270, 56%, 70%)); 
+}
+
+
+
+
